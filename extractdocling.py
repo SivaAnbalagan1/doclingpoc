@@ -1,11 +1,10 @@
 import os
 os.environ["HF_HUB_OFFLINE"] = "1"
 os.environ["TRANSFORMERS_OFFLINE"] = "1"
-os.environ["DOCLING_SERVE_ARTIFACTS_PATH"] = "./docling/models"
+os.environ["DOCLING_ARTIFACTS_PATH"] = "./docling/models"
 os.environ["HF_HOME"] = "./docling/models"
 os.environ["HF_HUB_CACHE"] = "./docling/models"
-# os.environ["TRANSFORMERS_OFFLINE"] = "0"
-# os.environ["HF_DATASETS_OFFLINE"] = "0"
+os.environ["HF_DATASETS_OFFLINE"] = "1"
 
 from docling.document_converter import DocumentConverter
 

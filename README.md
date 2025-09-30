@@ -1,4 +1,4 @@
-# frlextractor
+# DoclingPOC
 
 ## Testing Docling
 
